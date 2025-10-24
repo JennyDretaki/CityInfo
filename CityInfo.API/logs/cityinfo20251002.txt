@@ -1,0 +1,69 @@
+2025-10-02 10:54:20.601 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-10-02 10:54:20.803 +03:00 [DBG] Hosting starting
+2025-10-02 10:54:21.178 +03:00 [INF] Now listening on: https://localhost:7149
+2025-10-02 10:54:21.183 +03:00 [INF] Now listening on: http://localhost:5239
+2025-10-02 10:54:21.187 +03:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2025-10-02 10:54:21.190 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-10-02 10:54:21.194 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-10-02 10:54:21.197 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-10-02 10:54:21.499 +03:00 [DBG] Connection id "0HNG1H3IS0L02" accepted.
+2025-10-02 10:54:21.499 +03:00 [DBG] Connection id "0HNG1H3IS0L03" accepted.
+2025-10-02 10:54:21.504 +03:00 [DBG] Connection id "0HNG1H3IS0L02" started.
+2025-10-02 10:54:21.506 +03:00 [DBG] Connection id "0HNG1H3IS0L03" started.
+2025-10-02 10:54:21.656 +03:00 [DBG] Connection id "0HNG1H3IS0L03" received FIN.
+2025-10-02 10:54:21.656 +03:00 [DBG] Connection id "0HNG1H3IS0L02" received FIN.
+2025-10-02 10:54:21.686 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-10-02 10:54:21.686 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-10-02 10:54:21.771 +03:00 [DBG] Connection id "0HNG1H3IS0L02" stopped.
+2025-10-02 10:54:21.772 +03:00 [DBG] Connection id "0HNG1H3IS0L03" stopped.
+2025-10-02 10:54:21.805 +03:00 [DBG] Connection id "0HNG1H3IS0L03" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-02 10:54:21.805 +03:00 [DBG] Connection id "0HNG1H3IS0L02" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-02 10:54:21.821 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-02 10:54:21.834 +03:00 [INF] Hosting environment: Development
+2025-10-02 10:54:21.838 +03:00 [INF] Content root path: C:\Users\30698\OneDrive\Υπολογιστής\Portfolio\Thomas More Projects\.NET\CityInfo\CityInfo\CityInfo.API
+2025-10-02 10:54:21.844 +03:00 [DBG] Hosting started
+2025-10-02 10:54:23.249 +03:00 [DBG] Connection id "0HNG1H3IS0L04" accepted.
+2025-10-02 10:54:23.256 +03:00 [DBG] Connection id "0HNG1H3IS0L04" started.
+2025-10-02 10:54:23.360 +03:00 [DBG] Connection 0HNG1H3IS0L04 established using the following protocol: "Tls13"
+2025-10-02 10:54:23.519 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/swagger - null null
+2025-10-02 10:54:23.895 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-10-02 10:54:23.915 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/swagger - 301 0 null 424.6762ms
+2025-10-02 10:54:23.928 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/swagger/index.html - null null
+2025-10-02 10:54:24.102 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-10-02 10:54:24.109 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-10-02 10:54:24.162 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-10-02 10:54:24.174 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-10-02 10:54:24.182 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/swagger/index.html - 200 null text/html;charset=utf-8 253.469ms
+2025-10-02 10:54:24.240 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/swagger/swagger-ui.css - null null
+2025-10-02 10:54:24.241 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/swagger/swagger-ui-standalone-preset.js - null null
+2025-10-02 10:54:24.241 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/swagger/swagger-ui-bundle.js - null null
+2025-10-02 10:54:24.245 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/_vs/browserLink - null null
+2025-10-02 10:54:24.241 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-02 10:54:24.385 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-10-02 10:54:24.428 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 186.5588ms
+2025-10-02 10:54:24.435 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/swagger/swagger-ui.css - 200 143943 text/css 195.4175ms
+2025-10-02 10:54:24.605 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-10-02 10:54:24.417 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-10-02 10:54:24.686 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/_vs/browserLink - 200 null text/javascript; charset=UTF-8 441.0515ms
+2025-10-02 10:54:24.704 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 463.4286ms
+2025-10-02 10:54:24.729 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 487.8194ms
+2025-10-02 10:54:25.250 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/swagger/v1/swagger.json - null null
+2025-10-02 10:54:25.314 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 65.3532ms
+2025-10-02 10:54:25.320 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/swagger/favicon-32x32.png - null null
+2025-10-02 10:54:25.389 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-10-02 10:54:25.404 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/swagger/favicon-32x32.png - 200 628 image/png 84.0986ms
+2025-10-02 10:54:33.607 +03:00 [DBG] Connection id "0HNG1H3IS0L04" received FIN.
+2025-10-02 10:54:34.116 +03:00 [DBG] The connection queue processing loop for 0HNG1H3IS0L04 completed.
+2025-10-02 10:54:34.132 +03:00 [DBG] Connection id "0HNG1H3IS0L04" is closed. The last processed stream ID was 17.
+2025-10-02 10:54:34.484 +03:00 [DBG] Connection id "0HNG1H3IS0L04" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-02 10:54:34.509 +03:00 [DBG] Connection id "0HNG1H3IS0L04" stopped.
